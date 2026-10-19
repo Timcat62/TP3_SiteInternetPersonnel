@@ -1,0 +1,39 @@
+ARBORESCENCE DU SITE
+Thème : vidéos de voitures faites en 3D sur Blender, pour les réseaux sociaux principalement (particuliers et professionnels)
+
+
+Menu (présent sur toutes les pages) :
+
+Accueil
+Thématique
+Services
+Formats
+Galerie
+CV
+Contact
+
+
+Arboresence :
+Site
+    index.html          Accueil : présentation, image d'accueil, liens vers les autres pages
+    thematique.html     Thématique : le principe, comment je travaille, lien vers la galerie
+    services.html       Services : offres pour particuliers et professionnels, comment commander
+    formats.html        Formats : tableau des formats de vidéos (vertical, horizontal, large, image)
+    galerie.html        Galerie : images en miniatures
+    CV_FR.html          CV en français (drapeau pour changer de langue)
+    CV_EN.html          CV en anglais (drapeau pour changer de langue)
+    contact.html        Contact : formulaire nom, mail, age, sexe, message : mailto
+    style.css           page de style pour toutes les pages
+    arborescence.txt    ce fichier
+    images/
+        ProfilePicture.png           Photo du CV
+        drapeau-fr.svg               Drapeau français
+        drapeau-en.svg               Drapeau anglais
+        espace-gros-plan.png         Image
+        espace-large.png             Image
+        audi-nuit.png                Image
+        audi-nuit-noir-blanc.jpg     Image
+        porsche-citrouilles.png      Image
+        porsche-or.png               Image
+        porsche-automne.png          Image
+        mini-[nomDeLImage].jpg       Miniatures (400 px) pour la galerie
