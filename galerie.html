@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+    Fichier : galerie.html
+    Projet  : TP3 - Site personnel de Timéo CATILLION
+    Rôle    : galerie d'images sous forme de vignettes (chaque vignette ouvre l'image en grand)
+-->
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Galerie - Timéo CATILLION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Menu de navigation (présent sur toutes les pages) -->
+    <div id="menu">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="thematique.html">Thématique</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="formats.html">Formats</a></li>
+            <li><a href="galerie.html">Galerie</a></li>
+            <li><a href="CV_FR.html">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="page">
+        <div id="entete">
+            <h1>Galerie</h1>
+            <p>Clique sur une vignette pour voir l'image en grand</p>
+        </div>
+
+        <div class="contenu">
+            <h2>Dans l'espace</h2>
+            <div class="vignette">
+                <a href="images/espace-gros-plan.png"><img src="images/mini-espace-gros-plan.jpg" alt="Gros plan d'une Porsche dans l'espace"></a>
+                <p>Gros plan</p>
+            </div>
+            <div class="vignette">
+                <a href="images/espace-large.png"><img src="images/mini-espace-large.jpg" alt="Large plan d'une Porsche dans l'espace"></a>
+                <p>Vue large</p>
+            </div>
+
+            <div class="fin-galerie"></div>
+            <h2>Dans Minecraft</h2>
+            <div class="vignette">
+                <a href="images/audi-nuit.png"><img src="images/mini-audi-nuit.jpg" alt="Audi RS6 de face dans Minecraft"></a>
+                <p>Version couleur</p>
+            </div>
+            <div class="vignette">
+                <a href="images/audi-nuit-noir-blanc.jpg"><img src="images/mini-audi-nuit-noir-blanc.jpg" alt="La même Audi en noir et blanc et retouchée"></a>
+                <p>Noir et blanc</p>
+            </div>
+
+            <div class="fin-galerie"></div>
+            <h2>Partout</h2>
+            <div class="vignette">
+                <a href="images/porsche-citrouilles.png"><img src="images/mini-porsche-citrouilles.jpg" alt="Porsche orange dans un studio, entourée de citrouilles"></a>
+                <p>Studio - citrouilles</p>
+            </div>
+            <div class="vignette">
+                <a href="images/porsche-or.png"><img src="images/mini-porsche-or.jpg" alt="Porsche dorée dans un coffre fort"></a>
+                <p>Coffre fort - Porsche dorée</p>
+            </div>
+            <div class="vignette">
+                <a href="images/porsche-automne.png"><img src="images/mini-porsche-automne.jpg" alt="Porsche dans une forêt d'automne dans Minecraft"></a>
+                <p>Minecraft - Ambiance automne</p>
+            </div>
+            <div class="fin-galerie"></div>
+        </div>
+    </div>
+</body>
+</html>
