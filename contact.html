@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+    Fichier : contact.html
+    Formulaire de contact qui ouvre le logiciel de messagerie
+-->
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Timéo CATILLION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Menu de navigation -->
+    <div id="menu">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="thematique.html">Thématique</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="formats.html">Formats</a></li>
+            <li><a href="galerie.html">Galerie</a></li>
+            <li><a href="CV_FR.html">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="page">
+        <div id="entete">
+            <h1>Contact</h1>
+            <p>Parlons de votre projet</p>
+        </div>
+
+        <div class="contenu">
+            <h2>Envoyez moi un message</h2>
+            <p>Remplissez le formulaire puis vous serez redirigé vers l'envoi du mail à tim.catillion@gmail.com.</p>
+
+            <!-- Le formulaire qui envoie un mail grâce à mailto -->
+            <form action="mailto:tim.catillion@gmail.com" method="post" enctype="text/plain">
+                <p>
+                    <label for="nom">Nom :</label>
+                </p>
+                <p>
+                    <input type="text" id="nom" name="Nom">
+                </p>
+                <p>
+                    <label for="mail">Mail :</label>
+                </p>
+                <p>
+                    <input type="text" id="mail" name="Mail">
+                </p>
+                <p>
+                    <label for="age">Age :</label>
+                </p>
+                <p>
+                    <input type="number" id="age" name="Age">
+                </p>
+                <p>Sexe :</p>
+                <p>
+                    <input type="radio" id="homme" name="Sexe" value="Homme">
+                    <label for="homme">Homme</label>
+                    <input type="radio" id="femme" name="Sexe" value="Femme">
+                    <label for="femme">Femme</label>
+                </p>
+                <p>
+                    <label for="message">Message :</label>
+                </p>
+                <p>
+                    <textarea id="message" name="Message" rows="5"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Envoyer</button>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
