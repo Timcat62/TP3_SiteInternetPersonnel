@@ -1,0 +1,44 @@
+/*
+    Fichier   : style.css
+    Feuille de style commune à toutes les pages
+*/
+
+body {
+    background: #292929;
+    color: #303030;
+    font-family: "Trebuchet MS";
+    margin: 0;
+    padding: 0 0 30px;
+}
+
+/* Menu */
+#menu {
+    width: 100%;
+    height: 46px;
+    margin: 0 0 20px;
+    background: #515151;
+    border-bottom: 2px solid #c5c5c5;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0 0 0 10px;
+    list-style: none;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu a {
+    display: block;
+    padding: 14px 14px;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background: #777777;
+}
+
