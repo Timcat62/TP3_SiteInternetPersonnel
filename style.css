@@ -42,3 +42,95 @@ body {
     background: #777777;
 }
 
+/* page */
+#page {
+    width: 800px;
+    background: #ffffff;
+}
+
+#entete {
+    padding: 18px 70px 30px;
+    background: #777777;
+    color: #ffffff;
+}
+
+#entete h1 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    font-family: "Times New Roman";
+    font-size: 38px;
+    font-weight: normal;
+}
+
+#entete p {
+    margin: 7px 0 0;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.contenu {
+    padding: 30px 40px 0;
+    margin: 0 0 20px;
+}
+
+.contenu h2 {
+    margin: 0 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #aaaaaa;
+    color: #222222;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contenu h3 {
+    margin: 14px 0 6px;
+    color: #333333;
+    font-size: 13px;
+}
+
+.contenu p,
+.contenu li {
+    color: #444444;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.contenu a {
+    color: #515151;
+}
+
+/* Images des pages */
+.contenu img {
+    max-width: 100%;
+    border: 2px solid #c5c5c5;
+}
+
+/* Galerie : vignettes */
+.vignette {
+    float: left;
+    width: 220px;
+    margin: 0 20px 20px 0;
+    padding: 8px;
+    background: #eeeeee;
+    border: 1px solid #aaaaaa;
+    text-align: center;
+}
+
+.vignette img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #777777;
+}
+
+.vignette p {
+    margin: 6px 0 0;
+    font-size: 12px;
+}
+
+.fin-galerie {
+    clear: both;
+}
+
