@@ -134,3 +134,24 @@ body {
     clear: both;
 }
 
+/* Tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 8px;
+    background: #515151;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid #aaaaaa;
+    color: #444444;
+    font-size: 13px;
+}
+
