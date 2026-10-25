@@ -155,3 +155,23 @@ td {
     font-size: 13px;
 }
 
+/* Formulaire de contact */
+form p {
+    margin: 0 0 12px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #777777;
+    font-family: "Trebuchet MS";
+}
+
+button {
+    padding: 8px 20px;
+    background: #515151;
+    border: 0;
+    color: #ffffff;
+    font-size: 13px;
+}
+
