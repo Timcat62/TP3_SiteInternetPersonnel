@@ -175,3 +175,166 @@ button {
     font-size: 13px;
 }
 
+/* Drapeaux */
+#langues {
+    width: 800px;
+    margin: 0 0 10px;
+    text-align: right;
+}
+
+#langues img {
+    width: 45px;
+    height: 30px;
+    margin-left: 8px;
+    border: 2px solid #c5c5c5;
+}
+
+/* Page d'accueil */
+.accueil-image {
+    width: 100%;
+    border: 0;
+}
+
+.deux-colonnes {
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+}
+
+.deux-colonnes h3 {
+    margin-top: 0;
+}
+
+/* CV */
+#resume {
+    position: relative;
+    width: 800px;
+    height: 1050px;
+}
+
+#resume-left {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 0 34px;
+    background: #515151;
+    color: #ffffff;
+}
+
+#profile-picture {
+    position: relative;
+    width: 170px;
+    margin: 72px 0 40px;
+    border: 2px solid #c5c5c5;
+    border-radius: 50%;
+}
+
+.sidebar {
+    margin: 0 0 34px;
+}
+
+.sidebar h2, .content h2 {
+    margin: 0 0 12px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sidebar h2 {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.sidebar p, .sidebar li {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 1.55;
+}
+
+.sidebar ul {
+    margin: 0;
+    padding-left: 16px;
+}
+
+#resume-right {
+    margin-left: 35%;
+    width: 57%;
+    height: 1050px;
+    background: #ffffff;
+}
+
+#header {
+    padding: 18px 70px 30px;
+    background: #777777;
+    color: #ffffff;
+}
+
+#header h1 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    font-family: "Times New Roman";
+    font-size: 38px;
+    font-weight: normal;
+}
+
+#header h1 span, .entry2 span {
+    display: block;
+}
+
+#header h2 {
+    margin: 7px 0 0;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.content {
+    padding: 40px 40px 0;
+    margin: 0 0 20px;
+}
+
+.content h2 {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #aaaaaa;
+    color: #222222;
+}
+
+.content p {
+    margin: 0 0 7px;
+    color: #444444;
+    font-size: 12px;
+    line-height: 1.35;
+}
+
+.entry1 {
+    margin: 18px 0 0;
+}
+
+.entry2 {
+    float: left;
+    width: 48px;
+    margin: 0;
+    border-right: 2px solid #b6b6b6;
+    color: #333333;
+    font-size: 11px;
+    text-align: center;
+}
+
+.entry3 h3 {
+    margin: 0 0 6px;
+    color: #333333;
+    font-size: 12px;
+}
+
+.entry3 li {
+    margin-bottom: 4px;
+    color: #444444;
+    font-size: 12px;
+    line-height: 1.35;
+}
+
+.entry3 {
+    margin-left: 60px;
+}
